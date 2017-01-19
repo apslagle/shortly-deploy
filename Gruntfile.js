@@ -94,8 +94,7 @@ module.exports = function(grunt) {
 
   grunt.registerTask('build', [
     'concat',
-    'uglify',
-    'nodemon'
+    'uglify'
   ]);
 
   grunt.registerTask('upload', function(n) {
